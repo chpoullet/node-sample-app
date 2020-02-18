@@ -32,10 +32,22 @@ https://github.com/chpoullet/node-sample-app/tree/master/vagrant-lab-1
 ----------
 
 Go into vagrant-lab-1 folder and right click and open Git Bash
-or cd into this directory. Once in Git Bash and in the correct directory, run this command:
+or cd into this directory. Once in Git Bash and in the correct directory, run these commands one line at a time:
 ```
+vagrant plugin install vagrant-hostsupdater
 vagrant up
 ```
+
+
+Finally, run all these commands. Copy and paste each line one at a time:
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get upgrade -y
+sudo apt-get install nginx -y
+sudo systemctl start nginx
+```
+
 
 ## Description
 
